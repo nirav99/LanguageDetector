@@ -10,6 +10,15 @@ It is based on naive bayes classifier. We generate n-grams of size 1, 2 and 3 ch
 
 The prior counts, (i.e. the language profile counts) are taken from another github repository [https://github.com/shuyo/language-detection].
 
+Building the project
+====================
+
+This is built using gradle. Use the command
+
+```cmd
+gradle jar
+```
+
 Usage
 ======
 
