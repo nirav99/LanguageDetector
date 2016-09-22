@@ -25,3 +25,8 @@ You can also add text to a file, say inputfile and call the program as
 cd jar
 cat inputfile | xargs java -jar LanguagePredictor.jar
 ```
+
+Caveat
+=======
+
+It only works for English, French and German. If you give some random language or something junk, it will give invalid answer.
