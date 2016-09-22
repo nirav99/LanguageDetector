@@ -8,7 +8,7 @@ The Approach
 
 It is based on naive bayes classifier. We generate n-grams of size 1, 2 and 3 characters and feed them to the classifier. The language with the maximum probability is considered as the page language.
 
-The prior counts are taken from another github repository [https://github.com/shuyo/language-detection].
+The prior counts, (i.e. the language profile counts) are taken from another github repository [https://github.com/shuyo/language-detection].
 
 Usage
 ======
